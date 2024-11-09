@@ -1,0 +1,50 @@
+.navbar.bg-body-tertiary {
+    height: 90px;
+    background-color: #FFFFFF !important;
+    /* padding: 0rem 6rem; */
+}
+
+.navlinks {
+    font-size: 1.25rem;
+}
+
+.nav-link {
+    margin-left: 1.5rem;
+}
+
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
+    --bs-offcanvas-width: 15rem !important;
+}
+
+a.nav-link.active{
+    font-weight: bold;
+    border-bottom: 1px solid #565387;
+}
+
+a.nav-link{
+    width: fit-content;
+}
+
+@media (min-width: 768px) {
+    .navbar.bg-body-tertiary {
+        padding: 0rem 6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar.bg-body-tertiary {
+        padding: 0rem 4rem;
+    }
+}
+
+@media (max-width: 520px) {
+    .navbar.bg-body-tertiary {
+        padding: 0rem 2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar.bg-body-tertiary {
+        padding: 0rem 1rem;
+    }
+}
