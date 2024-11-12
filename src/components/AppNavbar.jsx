@@ -10,11 +10,10 @@ import '../styles/global.css'
 
 export default function AppNavbar() {
   const [show, setShow] = useState(false);
-  const toggle = () => setShow(!show);
   const expand = "md";
   return (
     <>
-      <Navbar bg="light" data-bs-theme="light" key={expand} expand={expand} className="custom-navbar bg-body-tertiary mb-3">
+      <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
         <Container fluid>
           <Navbar.Brand>
             <img
