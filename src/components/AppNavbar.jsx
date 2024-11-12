@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import logo from "../assets/images/logo.png"
+import logo from "../assets/images/logo.png";
 import { NavLink } from "react-router-dom";
 import { NavLink as BsNavLink } from "react-bootstrap";
 import '../styles/global.css'
@@ -18,9 +18,7 @@ export default function AppNavbar() {
           <Navbar.Brand>
             <img
               src={logo}
-              width="80"
-              height="80"
-              className="d-inline-block align-top"
+              className="brandLogo d-inline-block align-top"
               alt="Tool Edge Technology Logo"
             />
           </Navbar.Brand>
@@ -36,8 +34,8 @@ export default function AppNavbar() {
               <Navbar.Brand>
                 <img
                   src={logo}
-                  width="90"
-                  height="90"
+                  width="80"
+                  height="80"
                   className="d-inline-block align-top"
                   alt="Tool Edge Technology Logo"
                 />

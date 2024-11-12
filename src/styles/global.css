@@ -1,7 +1,7 @@
 .navbar.bg-body-tertiary {
     height: 90px;
     background-color: #FFFFFF !important;
-    /* padding: 0rem 6rem; */
+    padding: 0rem 6rem;
 }
 
 .navlinks {
@@ -12,29 +12,56 @@
     margin-left: 1.5rem;
 }
 
-.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
-    --bs-offcanvas-width: 15rem !important;
-}
-
 a.nav-link.active{
     font-weight: bold;
-    border-bottom: 1px solid #565387;
+    border-bottom: 1px solid #dd3a3d;
+    color: #dd3a3d !important;
 }
 
 a.nav-link{
     width: fit-content;
 }
 
-@media (min-width: 768px) {
-    .navbar.bg-body-tertiary {
-        padding: 0rem 6rem;
-    }
+.brandLogo{
+    width: 80px;
+    height: 80px;
+}
+
+.offcanvas-backdrop.show{
+    background-color: #dd3a3d;
 }
 
 @media (max-width: 768px) {
     .navbar.bg-body-tertiary {
         padding: 0rem 4rem;
     }
+
+    .brandLogo{
+        width: 70px;
+        height: 70px;
+    }
+
+    .offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
+        --bs-offcanvas-width: 15rem !important;
+        background-color: #052c65 !important;
+    }
+    
+    .btn-close{
+        background: #fff3cd var(--bs-btn-close-bg) center / 1em auto no-repeat !important;
+    }
+
+    .navlinks{
+        color: white;
+    }
+
+    .navbar-toggler{
+        color: #FFFFFF !important;
+    }
+
+    .nav-link {
+        margin-left: 0rem;
+    }
+
 }
 
 @media (max-width: 520px) {
@@ -47,4 +74,10 @@ a.nav-link{
     .navbar.bg-body-tertiary {
         padding: 0rem 1rem;
     }
+
+    .brandLogo{
+        width: 60px;
+        height: 60px;
+    }
+    
 }
