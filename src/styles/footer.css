@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.footer {
+    height: 600px;
+    background-color: #1A2D49;
+    font-family: "Ubuntu", sans-serif;
+    overflow-x: hidden;
+}
+
+/* Footer First Row */
+
+.footer-first-row {
+    height: 430px !important;
+}
+
+.footer-container-fluid {
+    height: 100%;
+}
+
+.footer-inner-container {
+    height: 100%;
+    padding: 80px 0px 50px 0px;
+}
+
+.row {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+.footer-first-col .row {
+    margin: auto;
+}
+
+.footer-first-col p{
+    width: 340px;
+}
+.brand-logo h3 {
+    font-size: 35px;
+}
+
+.brand-logo h3 span {
+    color: #dd3a3d;
+}
+
+.footer-social-media a {
+    margin-right: 15px;
+}
+
+.gap-between {
+    width: 250px;
+}
+
+.footer-contacts h4 {
+    font-size: 30px;
+}
+
+.footer-contacts p {
+    margin: 0px 0px 0px 16px;
+    width: 270px;
+}
+
+.footer-contacts img {
+    margin-bottom: auto;
+}
+
+/* Footer Last Row */
+
+.footer-last-row {
+    height: 170px;
+    padding: 0px;
+}
+
+.footer-links {
+    height: 100px;
+}
+
+/* Footer Links */
+
+.footer-links a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+
+.footer-links a:not(:last-child) {
+    padding-right: 70px;
+}
+
+.footer-links a.active {
+    font-weight: bold;
+    color: #dd3a3d !important;
+}
+
+a.nav-link {
+    width: fit-content;
+}
+
+/* Footer Copyright */
+
+.footer-copyright {
+    height: 70px;
+    border-top: 1px solid white;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        height: 900px;
+    }
+
+    .footer-first-row {
+        height: 730px !important;
+    }
+
+    .footer-inner-container {
+        padding: 70px 0px 50px 0px;
+    }
+
+    .footer-first-col {
+        margin-bottom: 60px;
+    }
+
+    .footer-links a:not(:last-child) {
+        padding-right: 50px;
+    }
+
+    .footer-last-row .container-fluid {
+        padding: 0px !important;
+    }
+
+    .footer-contacts {
+        padding: 12px;
+    }
+}
+
+
+@media (max-width: 520px) {
+    .footer-links a {
+        font-size: 18px;
+    }
+
+    .footer-links a:not(:last-child) {
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 370px) {
+    .footer-links a {
+        font-size: 16px;
+    }
+
+    .footer-links a:not(:last-child) {
+        padding-right: 25px;
+    }
+
+    .footer-copyright {
+        font-size: 15px;
+    }
+
+    .brand-logo img{
+        width: 75px;
+        height: 75px;
+    }
+
+    .brand-logo h3{
+        font-size: 30px;
+    }
+
+    .footer-contacts h4{
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .footer-links a:not(:last-child) {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 290px) {
+    .footer-links a {
+        font-size: 14px;
+    }
+
+    .footer-links a:not(:last-child) {
+        padding-right: 15px;
+    }
+}

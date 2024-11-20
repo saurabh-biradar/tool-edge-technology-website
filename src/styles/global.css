@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 .navbar.bg-body-tertiary {
     height: 90px;
     background-color: #FFFFFF !important;
     padding: 0rem 6rem;
+    font-family: "Ubuntu", sans-serif;
 }
 
 .navlinks {
