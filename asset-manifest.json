@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/tool-edge-technology-website/static/css/main.44b52a90.css",
+    "main.css": "/tool-edge-technology-website/static/css/main.b5a9b856.css",
     "main.js": "/tool-edge-technology-website/static/js/main.417c0115.js",
     "static/media/logo.png": "/tool-edge-technology-website/static/media/logo.f024d3208197de56e8a7.png",
     "index.html": "/tool-edge-technology-website/index.html",
-    "main.44b52a90.css.map": "/tool-edge-technology-website/static/css/main.44b52a90.css.map",
+    "main.b5a9b856.css.map": "/tool-edge-technology-website/static/css/main.b5a9b856.css.map",
     "main.417c0115.js.map": "/tool-edge-technology-website/static/js/main.417c0115.js.map"
   },
   "entrypoints": [
-    "static/css/main.44b52a90.css",
+    "static/css/main.b5a9b856.css",
     "static/js/main.417c0115.js"
   ]
 }
