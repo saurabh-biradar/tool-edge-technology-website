@@ -105,19 +105,19 @@ a.nav-link {
 
 @media (max-width: 768px) {
     .footer {
-        height: 900px;
+        height: 800px;
     }
 
     .footer-first-row {
-        height: 730px !important;
+        height: 630px !important;
     }
 
     .footer-inner-container {
-        padding: 70px 0px 50px 0px;
+        padding: 50px 0px 0px 0px;
     }
 
     .footer-first-col {
-        margin-bottom: 60px;
+        margin-bottom: 10px;
     }
 
     .footer-links a:not(:last-child) {
@@ -130,6 +130,19 @@ a.nav-link {
 
     .footer-contacts {
         padding: 12px;
+    }
+
+    .brand-logo img{
+        width: 75px;
+        height: 75px;
+    }
+
+    .brand-logo h3{
+        font-size: 30px;
+    }
+
+    .footer-contacts h4{
+        font-size: 25px;
     }
 }
 
@@ -155,19 +168,6 @@ a.nav-link {
 
     .footer-copyright {
         font-size: 15px;
-    }
-
-    .brand-logo img{
-        width: 75px;
-        height: 75px;
-    }
-
-    .brand-logo h3{
-        font-size: 30px;
-    }
-
-    .footer-contacts h4{
-        font-size: 25px;
     }
 
 }
