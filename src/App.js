@@ -1,4 +1,5 @@
 import './App.css';
+import './styles/global.css'
 import Layout from './components/Layout';
 import About from './pages/About';
 import Contacts from './pages/Contacts';

@@ -1,0 +1,102 @@
+.navbar.bg-body-tertiary {
+    height: 90px;
+    background-color: transparent !important;
+    padding: 0rem 6rem;
+}
+
+.navlinks {
+    font-size: 1.25rem;
+}
+
+.nav-link {
+    margin-left: 1.5rem;
+}
+
+a.nav-link.active {
+    font-weight: bold;
+    border-bottom: 1px solid #dd3a3d;
+    color: #dd3a3d !important;
+}
+
+a.nav-link {
+    width: fit-content;
+}
+
+.brandLogo {
+    width: 80px;
+    height: 80px;
+}
+
+.offcanvas-backdrop.show {
+    background-color: #dd3a3d;
+}
+
+.navbar-toggler-icon{
+    background-image: url("../assets/images/hamburger.svg") !important;
+    width: 2.5em !important;
+    height: 2.5em !important;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+
+@media (max-width: 768px) {
+    .navbar.bg-body-tertiary {
+        padding: 0rem 4rem;
+    }
+
+    .brandLogo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .offcanvas,
+    .offcanvas-lg,
+    .offcanvas-md,
+    .offcanvas-sm,
+    .offcanvas-xl,
+    .offcanvas-xxl {
+        --bs-offcanvas-width: 15rem !important;
+        background-color: #052c65 !important;
+    }
+
+    .btn-close {
+        background: #fff3cd var(--bs-btn-close-bg) center / 1em auto no-repeat !important;
+    }
+
+    .nav-link {
+        color: white !important;
+    }
+
+    .navbar-toggler {
+        color: #dd3a3d !important;
+    }
+
+    .nav-link {
+        margin-left: 0.5rem;
+    }
+
+}
+
+@media (max-width: 520px) {
+    .navbar.bg-body-tertiary {
+        padding: 0rem 2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .navbar.bg-body-tertiary {
+        padding: 0rem 1rem;
+    }
+
+    .brandLogo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .navbar-toggler-icon{
+        width: 2em !important;
+        height: 2em !important;
+    }
+}
