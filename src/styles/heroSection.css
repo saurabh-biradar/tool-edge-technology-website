@@ -7,11 +7,6 @@
     height: 644px;
 }
 
-.home-hero-content span,
-.hero-content span {
-    color: #dd3a3d;
-}
-
 .home-hero-content h2,
 .hero-content h2 {
     font-size: 50px;
@@ -69,7 +64,7 @@
     width: 600px;
 }
 
-#hero-first-col{
+#hero-first-col {
     padding-bottom: 25px;
 }
 
@@ -226,7 +221,7 @@
     .hero-content h5 {
         font-size: 16px;
     }
-    
+
     #floating-image {
         width: 260px;
         height: 270px;
