@@ -1,0 +1,145 @@
+#home-who-we-are-section {
+    margin: 70px 0px;
+}
+
+#about-img{
+    margin: 0;
+}
+
+#home-who-we-are-section h2 {
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 48px;
+    color: #00000096;
+}
+
+#home-who-we-are-section img {
+    width: 500px;
+    height: 500px;
+}
+
+#home-who-we-are-section p {
+    font-size: 20px;
+    color: #000000a3;
+    line-height: 1.9;
+    width: 600px;
+    text-align: justify;
+}
+
+#home-who-we-are-section a {
+    margin: 5px 0px;
+    color: #DD3A3D;
+    font-size: 20px;
+    border-bottom: 1px solid #DD3A3D;
+}
+
+@media (max-width: 1400px) {
+    #about-content {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 1260px) {
+
+    #home-who-we-are-section h2 {
+        font-size: 45px;
+    }
+
+    #home-who-we-are-section p {
+        width: 600px;
+    }
+
+    #home-who-we-are-section img {
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media (max-width: 1152px) {
+
+    #home-who-we-are-section h2 {
+        font-size: 40px;
+    }
+
+    #home-who-we-are-section p {
+        font-size: 19px;
+    }
+
+    #home-who-we-are-section img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    #home-who-we-are-section h2 {
+        padding: 0;
+    }
+
+    #home-who-we-are-section img {
+        width: 400px;
+        height: 400px;
+    }
+
+    #home-who-we-are-section p {
+        width: 750px;
+    }
+
+    #about-content {
+        padding: 0px 12px;
+    }
+}
+
+@media (max-width: 760px) {
+
+    #home-who-we-are-section p {
+        font-size: 18px;
+        width: 600px;
+    }
+}
+
+@media (max-width: 520px) {
+
+    #home-who-we-are-section h2{
+        margin-bottom: 15px;
+        font-size: 36px;
+    }
+
+    #home-who-we-are-section p {
+        font-size: 17px;
+        width: auto;
+    }
+
+    #home-who-we-are-section img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 360px) {
+
+    #home-who-we-are-section h2{
+        font-size: 30px;
+    }
+    
+    #home-who-we-are-section p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    #home-who-we-are-section img {
+        width: 270px;
+        height: 270px;
+    }
+}
+
+@media (max-width: 290px) {
+
+    #home-who-we-are-section img {
+        width: 250px;
+        height: 250px;
+    }
+}
