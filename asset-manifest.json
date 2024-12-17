@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/tool-edge-technology-website/static/css/main.665b77b2.css",
-    "main.js": "/tool-edge-technology-website/static/js/main.8a2b82e3.js",
+    "main.css": "/tool-edge-technology-website/static/css/main.26ee6271.css",
+    "main.js": "/tool-edge-technology-website/static/js/main.42789923.js",
     "static/media/hero_section_bg.gif": "/tool-edge-technology-website/static/media/hero_section_bg.758cfd45a9d4092ad08e.gif",
     "static/media/about_hero.svg": "/tool-edge-technology-website/static/media/about_hero.97c23dcacdae4108564ef4afddaa5b4b.svg",
+    "static/media/working.svg": "/tool-edge-technology-website/static/media/working.d38859b883fb4d20f879d9b01916d58d.svg",
     "static/media/contact_hero.svg": "/tool-edge-technology-website/static/media/contact_hero.f22defb131166f325d2a30d0eef00bed.svg",
     "static/media/service_hero.svg": "/tool-edge-technology-website/static/media/service_hero.9bff89e21cefc3f6cd4b7bfa1d3c59ca.svg",
     "static/media/logo.png": "/tool-edge-technology-website/static/media/logo.f024d3208197de56e8a7.png",
     "static/media/hamburger.svg": "/tool-edge-technology-website/static/media/hamburger.104cd42b64047bec1aa0.svg",
     "index.html": "/tool-edge-technology-website/index.html",
-    "main.665b77b2.css.map": "/tool-edge-technology-website/static/css/main.665b77b2.css.map",
-    "main.8a2b82e3.js.map": "/tool-edge-technology-website/static/js/main.8a2b82e3.js.map"
+    "main.26ee6271.css.map": "/tool-edge-technology-website/static/css/main.26ee6271.css.map",
+    "main.42789923.js.map": "/tool-edge-technology-website/static/js/main.42789923.js.map"
   },
   "entrypoints": [
-    "static/css/main.665b77b2.css",
-    "static/js/main.8a2b82e3.js"
+    "static/css/main.26ee6271.css",
+    "static/js/main.42789923.js"
   ]
 }
