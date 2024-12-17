@@ -27,10 +27,13 @@
 }
 
 #home-who-we-are-section a {
+    display: block;
+    width: fit-content;
     margin: 5px 0px;
     color: #DD3A3D;
     font-size: 20px;
     border-bottom: 1px solid #DD3A3D;
+    text-decoration: none;
 }
 
 @media (max-width: 1400px) {
@@ -97,6 +100,11 @@
         font-size: 18px;
         width: 600px;
     }
+    
+    #home-who-we-are-section a {
+        font-size: 19px;
+    }
+    
 }
 
 @media (max-width: 520px) {
