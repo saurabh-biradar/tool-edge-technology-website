@@ -7,10 +7,13 @@
 }
 
 #home-who-we-are-section h2 {
-    text-align: center;
     padding: 30px 0px;
+}
+
+.home-title {
     font-size: 48px;
     color: #00000096;
+    text-align: center;
 }
 
 #home-who-we-are-section img {
@@ -36,6 +39,38 @@
     text-decoration: none;
 }
 
+#home-why-companies-trust-us {
+    height: 300px;
+    text-align: center;
+    background-color: #FFF9F4;
+}
+
+#home-numbers-title {
+    height: 135px;
+    display: flex;
+    align-items: center;
+}
+
+#home-numbers span {
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#home-numbers {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.home-subtitles.col-md-3.col-sm-6 {
+    padding: 0px;
+}
+
+.visible-on-small-screens{
+    display: block;
+}
+
 @media (max-width: 1400px) {
     #about-content {
         padding: 40px;
@@ -44,7 +79,7 @@
 
 @media (max-width: 1260px) {
 
-    #home-who-we-are-section h2 {
+    .home-title {
         font-size: 45px;
     }
 
@@ -56,11 +91,19 @@
         width: 450px;
         height: 450px;
     }
+
+    #home-numbers span {
+        font-size: 32px;
+    }
+
+    #home-numbers {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 1152px) {
 
-    #home-who-we-are-section h2 {
+    .home-title {
         font-size: 40px;
     }
 
@@ -76,7 +119,7 @@
 
 @media (max-width: 992px) {
 
-    #home-who-we-are-section h2 {
+    .home-title {
         padding: 0;
     }
 
@@ -92,24 +135,80 @@
     #about-content {
         padding: 0px 12px;
     }
+
+    #home-why-companies-trust-us {
+        height: 250px;
+    }
+
+    #home-numbers-title {
+        height: 115px;
+    }
+
+    #home-numbers {
+        height: 135px;
+        font-size: 20px;
+    }
+
+    #home-numbers span {
+        font-size: 30px;
+    }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 767.5px) {
+
+    .home-title {
+        font-size: 38px;
+    }
 
     #home-who-we-are-section p {
         font-size: 18px;
         width: 600px;
     }
-    
+
     #home-who-we-are-section a {
         font-size: 19px;
     }
+
+    #home-why-companies-trust-us {
+        height: 350px;
+    }
+
+    #home-numbers-title {
+        height: 110px;
+    }
+
+    #home-numbers {
+        height: 200px;
+        font-size: 19px;
+    }
+
+    #home-numbers span {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 575.5px) {
+
+    #home-why-companies-trust-us {
+        height: 500px;
+    }
     
+    #home-numbers {
+        height: 350px;
+        font-size: 19px;
+    }
+
+    #home-numbers span {
+        font-size: 27px;
+    }
+
+    .home-subtitles{
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width: 520px) {
-
-    #home-who-we-are-section h2{
+    .home-title {
         margin-bottom: 15px;
         font-size: 36px;
     }
@@ -125,15 +224,35 @@
     }
 }
 
+@media (max-width: 425px) {
+    
+    .home-title {
+        font-size: 34px;
+    }
+
+    #home-numbers-title {
+        height: 125px;
+    }
+}
+
 @media (max-width: 360px) {
 
-    #home-who-we-are-section h2{
+    .home-title {
         font-size: 30px;
     }
-    
+
     #home-who-we-are-section p {
         font-size: 16px;
     }
+    
+    #home-numbers {
+        font-size: 17px;
+    }
+
+    #home-numbers span {
+        font-size: 25px;
+    }
+
 }
 
 @media (max-width: 320px) {
@@ -142,6 +261,10 @@
         width: 270px;
         height: 270px;
     }
+    
+    #home-numbers {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 290px) {
@@ -149,5 +272,12 @@
     #home-who-we-are-section img {
         width: 250px;
         height: 250px;
+    }
+}
+
+
+@media (min-width: 425px){
+    .visible-on-small-screens {
+        display: none;
     }
 }
