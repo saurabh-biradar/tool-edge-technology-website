@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Services from './pages/Services';
 import { Route, Routes, BrowserRouter, Navigate} from 'react-router-dom';
 
+
 function App() {
   return (
     <div className="App">

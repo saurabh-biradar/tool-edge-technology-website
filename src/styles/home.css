@@ -2,7 +2,7 @@
     margin: 70px 0px;
 }
 
-#about-img{
+#about-img {
     margin: 0;
 }
 
@@ -13,7 +13,7 @@
 .home-title {
     font-size: 48px;
     color: #00000096;
-    text-align: center;
+    width: fit-content;
 }
 
 #home-who-we-are-section img {
@@ -63,17 +63,94 @@
     font-size: 25px;
 }
 
+#about-content .container-fluid {
+    width: fit-content;
+}
+
 .home-subtitles.col-md-3.col-sm-6 {
     padding: 0px;
 }
 
-.visible-on-small-screens{
+.visible-on-small-screens {
     display: block;
 }
 
-@media (max-width: 1400px) {
-    #about-content {
-        padding: 40px;
+.owl-carousel .owl-item img {
+    opacity: 0.6;
+    height: 120px;
+}
+
+.owl-carousel .owl-item img:hover {
+    opacity: 1;
+}
+
+#home-trusted-partners {
+    margin-bottom: 50px;
+}
+
+#home-trusted-partners-title {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+#home-partners-section {
+    margin: 0px 30px;
+}
+
+.carousel-container {
+    position: relative;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-70%);
+    font-size: 24px !important;
+    color: #333 !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.owl-prev {
+    left: -10px;
+}
+
+.owl-next {
+    right: 10px;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.owl-dot.active {
+    background-color: #333;
+}
+
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+@media (max-width: 1300px) {
+    #home-who-we-are-section p {
+        width: 560px;
     }
 }
 
@@ -81,10 +158,6 @@
 
     .home-title {
         font-size: 45px;
-    }
-
-    #home-who-we-are-section p {
-        width: 600px;
     }
 
     #home-who-we-are-section img {
@@ -99,6 +172,10 @@
     #home-numbers {
         font-size: 22px;
     }
+
+    .owl-carousel .owl-item img {
+        height: 110px;
+    }
 }
 
 @media (max-width: 1152px) {
@@ -109,11 +186,16 @@
 
     #home-who-we-are-section p {
         font-size: 19px;
+        width: 540px;
     }
 
     #home-who-we-are-section img {
         width: 400px;
         height: 400px;
+    }
+
+    .owl-carousel .owl-item img {
+        height: 100px;
     }
 }
 
@@ -129,11 +211,11 @@
     }
 
     #home-who-we-are-section p {
-        width: 750px;
+        width: auto;
     }
 
     #about-content {
-        padding: 0px 12px;
+        padding: 0px 40px;
     }
 
     #home-why-companies-trust-us {
@@ -152,6 +234,10 @@
     #home-numbers span {
         font-size: 30px;
     }
+
+    .owl-carousel .owl-item img {
+        height: 90px;
+    }
 }
 
 @media (max-width: 767.5px) {
@@ -162,11 +248,14 @@
 
     #home-who-we-are-section p {
         font-size: 18px;
-        width: 600px;
     }
 
     #home-who-we-are-section a {
         font-size: 19px;
+    }
+
+    #about-content {
+        padding: 0px 25px;
     }
 
     #home-why-companies-trust-us {
@@ -185,14 +274,23 @@
     #home-numbers span {
         font-size: 28px;
     }
+
+    .owl-carousel .owl-item img {
+        height: 75px;
+    }
 }
 
 @media (max-width: 575.5px) {
 
+
+    #about-content {
+        padding: 0px 15px;
+    }
+
     #home-why-companies-trust-us {
         height: 500px;
     }
-    
+
     #home-numbers {
         height: 350px;
         font-size: 19px;
@@ -202,8 +300,16 @@
         font-size: 27px;
     }
 
-    .home-subtitles{
+    .home-subtitles {
         margin-bottom: 10px;
+    }
+
+    .owl-prev {
+        left: 15%;
+    }
+
+    .owl-next {
+        right: 15%;
     }
 }
 
@@ -213,19 +319,30 @@
         font-size: 36px;
     }
 
+    #home-who-we-are-section h2 {
+        padding: 18px 0px;
+    }
+
     #home-who-we-are-section p {
         font-size: 17px;
-        width: auto;
     }
 
     #home-who-we-are-section img {
         width: 300px;
         height: 300px;
     }
+
+    #home-partners-section {
+        margin: 0;
+    }
 }
 
 @media (max-width: 425px) {
-    
+
+    #about-content {
+        padding: 0px 12px;
+    }
+
     .home-title {
         font-size: 34px;
     }
@@ -244,7 +361,7 @@
     #home-who-we-are-section p {
         font-size: 16px;
     }
-    
+
     #home-numbers {
         font-size: 17px;
     }
@@ -257,11 +374,15 @@
 
 @media (max-width: 320px) {
 
+    #about-content {
+        padding: 0px 5px;
+    }
+
     #home-who-we-are-section img {
         width: 270px;
         height: 270px;
     }
-    
+
     #home-numbers {
         font-size: 16px;
     }
@@ -276,7 +397,7 @@
 }
 
 
-@media (min-width: 425px){
+@media (min-width: 425px) {
     .visible-on-small-screens {
         display: none;
     }
